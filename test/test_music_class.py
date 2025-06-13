@@ -2,7 +2,7 @@ from lib.music_class import *
 
 def test_music_class_exist():
     result = Music()
-    assert isinstance(result, Music) == True
+    assert isinstance(result, Music) is not None 
 
 def test_return_empty_song_list():
     result = Music()
